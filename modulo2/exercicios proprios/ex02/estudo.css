@@ -1,0 +1,33 @@
+header {
+    background-image: linear-gradient(to right, red, rgb(190, 172, 10), green);
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+}
+body {
+    background-image: url(reggae.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#primeiras {
+   
+    background-image: url(roots.png);
+    background-size: cover;
+}
+p {
+    text-align: justify;
+    color: rgb(255, 253, 253);
+}
+#segundas {
+    margin-left: auto;
+    
+    background-image: url(download.jpg);
+    background-size: cover;
+}
+button {
+    background-image: linear-gradient(to right, rgb(104, 26, 26), #095509);
+}
+#p2 {
+    text-align: left;
+}

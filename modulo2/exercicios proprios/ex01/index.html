@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index html</title>
+    <link rel="stylesheet" href="aluno.css">
+</head>
+<body>
+    <h1>Sistema de notas</h1>
+    <p>um site feito para medir as nota dos alunos.</p>
+    <section id="sec1">
+        <p id="para1">qual seu nome? <input type="string" name="nm" id="nm"></p>
+        <p>qual suas notas na primeira unidade?  <input type="number" name="uni1" id="uni1"></p>
+        <p>e na segunda unidade?  <input type="number" name="uni2" id="uni2"></p>
+        <input type="button" value="calcular" onclick="calcular()" id="btt">
+        <p id="res"><strong>resultado</strong></p>
+    </section>
+    <script src="aluno.js"></script>
+</body>
+</html> 
